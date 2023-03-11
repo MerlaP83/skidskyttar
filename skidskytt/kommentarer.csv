@@ -1,0 +1,9 @@
+ledare_avstand,ledare_straffrundor,kilometer,situation,kommentar
+>0,1,1,missat_skott,"[Åkarens namn] har missat ett skott på första skyttet och tvingas till en straffrunda."
+>0,1,1,straffrunda,"[Åkarens namn] tvingas till en straffrunda på första skyttet."
+>0,0,1,ledning,"[Åkarens namn] har tagit ledningen på första sträckan!"
+0,0,2,ledning,"[Åkarens namn] håller fortfarande ledningen på andra sträckan."
+0,1,2,straffrunda,"[Åkarens namn] tvingas till en straffrunda på andra skyttet."
+0,1,3,straffrunda,"[Åkarens namn] missar på tredje skyttet och tvingas till en straffrunda."
+0,0,4,ledning,"[Åkarens namn] håller fortfarande ledningen på sista sträckan!"
+0,0,4,vinst,"[Åkarens namn] vinner loppet och tar hem segern!"

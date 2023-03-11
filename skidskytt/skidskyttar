@@ -1,0 +1,49 @@
+import sqlite3
+from prettytable import PrettyTable
+
+# Connect to the SQLite database
+conn = sqlite3.connect('skidskytte.db')
+
+# Define the columns to display in the table
+columns = ['id', 'namn', 'nation', 'alder', 'kon', 'liggande_traffar', 'liggande_traffsakerhet', 'staende_traffar', 'staende_traffsakerhet', 'tidstillagg', 'liggande_tid', 'staende_tid']
+
+# Define the SQL query to get all skidskyttar data
+sql = 'SELECT {} FROM skidskyttar'.format(', '.join(columns))
+
+# Execute the query and fetch all results
+cursor = conn.execute(sql)
+skidskyttar = cursor.fetchall()
+
+# Create a PrettyTable instance with the column names
+table = PrettyTable(field_names=columns)
+
+# Add each skidskytt to the table as a row
+for skidskytt in skidskyttar:
+    table.add_row(skidskytt)
+
+# Print the table
+print(table)
+
+# Define the sorting options available to the user
+sorting_options = {
+    '1': ('namn', 'ASC'),
+    '2': ('tidstillagg', 'ASC'),
+    '3': ('liggande_traffsakerhet', 'DESC'),
+    '4': ('staende_traffsakerhet', 'DESC'),
+    '5': ('liggande_tid', 'ASC'),
+    '6': ('staende_tid', 'ASC'),
+    '7': ('alder', 'ASC'),
+    '8': ('nation', 'ASC'),
+}
+
+# Prompt the user to choose a sorting option
+option = input('Sortera efter: \n1. Tidstillägg\n2. Liggande träffsäkerhet\n3. Stående träffsäkerhet\n4. Liggande tid\n5. Stående tid\n6. Ålder\n7. Nation\n8. Namn\nVälj: ')
+
+# Validate the user's input and sort the table accordingly
+if option in sorting_options:
+    column, order = sorting_options[option]
+    table.sortby = column
+    table.reversesort = True if order == 'DESC' else False
+    print(table)
+else:
+    print('Felaktig input. Avslutar programmet.')

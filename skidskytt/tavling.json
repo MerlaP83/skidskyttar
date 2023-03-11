@@ -1,0 +1,128 @@
+[
+    {
+        "namn": "Olympiska spelen Sprint",
+        "plats": "Peking, Kina",
+        "datum": "5 februari 2022",
+        "gren": "Sprint",
+        "distans": 10,
+        "liggande_skytte": 2,
+        "staende_skytte": 4
+    },
+    {
+        "namn": "Olympiska spelen Masstart",
+        "plats": "Peking, Kina",
+        "datum": "12 februari 2022",
+        "gren": "Masstart",
+        "distans": 15,
+        "liggande_skytte": [3,6],
+        "staende_skytte": [9,12]
+    },
+    {
+        "namn": "VM i skidskytte Sprint",
+        "plats": "Pokljuka, Slovenien",
+        "datum": "10 februari 2022",
+        "gren": "Sprint",
+        "distans": 10,
+        "liggande_skytte": 2,
+        "staende_skytte": 4
+    },
+    {
+        "namn": "VM i skidskytte Masstart",
+        "plats": "Pokljuka, Slovenien",
+        "datum": "13 februari 2022",
+        "gren": "Masstart",
+        "distans": 15,
+        "liggande_skytte": [3,6],
+        "staende_skytte": [9,12]
+    },
+    {
+        "namn": "Holmenkollen skifestival Sprint",
+        "plats": "Oslo, Norge",
+        "datum": "18 mars 2022",
+        "gren": "Sprint",
+        "distans": 10,
+        "liggande_skytte": 2,
+        "staende_skytte": 4
+    },
+    {
+        "namn": "Holmenkollen skifestival Masstart",
+        "plats": "Oslo, Norge",
+        "datum": "20 mars 2022",
+        "gren": "Masstart",
+        "distans": 15,
+        "liggande_skytte": [3,6],
+        "staende_skytte": [9,12]
+    },
+    {
+        "namn": "Världscupen Oberhof Sprint",
+        "plats": "Oberhof, Tyskland",
+        "datum": "6 januari 2022",
+        "gren": "Sprint",
+        "distans": 10,
+        "liggande_skytte": 2,
+        "staende_skytte": 2
+    },
+    {
+        "namn": "Världscupen Oberhof Jaktstart",
+        "plats": "Oberhof, Tyskland",
+        "datum": "9 januari 2022",
+        "gren": "Jaktstart",
+        "distans": 12,
+        "liggande_skytte": 4,
+        "staende_skytte": 4
+    },
+    {
+        "namn": "Världscupen Ruhpolding Sprint",
+        "plats": "Ruhpolding, Tyskland",
+        "datum": "13 januari 2022",
+        "gren": "Sprint",
+        "distans": 10,
+        "liggande_skytte": 2,
+        "staende_skytte": 2
+    },
+    {
+        "namn": "Världscupen Antholz Sprint",
+        "plats": "Antholz-Anterselva, Italien",
+        "datum": "20 januari 2022",
+        "gren": "Sprint",
+        "distans": 10,
+        "liggande_skytte": 2,
+        "staende_skytte": 2
+    },
+    {
+        "namn": "Världscupen Östersund Sprint",
+        "plats": "Östersund, Sverige",
+        "datum": "2 december 2022",
+        "gren": "Sprint",
+        "distans": 10,
+        "liggande_skytte": 2,
+        "staende_skytte": 4
+    },
+    {
+        "namn": "Världscupen Östersund Masstart",
+        "plats": "Östersund, Sverige",
+        "datum": "4 december 2022",
+        "gren": "Masstart",
+        "distans": 15,
+        "liggande_skytte": [3,6],
+        "staende_skytte": [9,12]
+    },
+    {
+        "namn": "Världscupen Hochfilzen Sprint",
+        "plats": "Hochfilzen, Österrike",
+        "datum": "9 december 2022",
+        "gren": "Sprint",
+        "distans": 10,
+        "liggande_skytte": 2,
+        "staende_skytte": 4
+    },
+    {
+        "namn": "Världscupen Hochfilzen Masstart",
+        "plats": "Hochfilzen, Österrike",
+        "datum": "11 december 2022",
+        "gren": "Masstart",
+        "distans": 15,
+        "liggande_skytte": [3,6],
+        "staende_skytte": [9,12]
+    }
+]
